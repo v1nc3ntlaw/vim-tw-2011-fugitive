@@ -46,6 +46,11 @@
       margin-top: -10px;
       margin-right: 15px;
     }
+    pre.smaller {
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: 0;
+    }
     article.page-one .logo img {
       float: left;
       width: 128px;
@@ -117,6 +122,23 @@
         <p>a Git wrapper</p>
         <p>Author: Tim Pope @tpope</p>
         <p>https://github.com/tpope/vim-fugitive</p>
+      </article>
+
+      <article>
+        <h1 class="upper">:Gbrowser</h1>
+        <p>
+          Github integration<br>
+        </p>
+<pre class="smaller">
+# change git default browser
+$ git config --global web.browser chrome
+$ git config --global browser.chrome.path /opt/google/chrome/chrome
+# more details
+$ git web--browse --help
+</pre>
+        <div class="source">
+          https://github.com/
+        </div>
       </article>
 
       <article>
