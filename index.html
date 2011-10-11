@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+
+<!--
+  Google HTML5 slide template
+
+  Authors: Luke Mahé (code)
+           Marcin Wichary (code and design)
+           
+           Dominic Mazzoni (browser compatibility)
+           Charles Chen (ChromeVox support)
+
+  URL: http://code.google.com/p/html5slides/
+-->
+
+<!--
+  Vim Taiwan 2011/10/11
+  Subject: Vim + Git = Fugitive
+  Speaker: Sheng-Zhe Lin (v1nc3ntlaw)
+  Twitter: @v1nc3ntlaw
+    Gmail: v1nc3ntlaw@gmail.com
+-->
+
+<html>
+  <head>
+    <title>Vim + Git = Fugitive</title>
+
+    <meta charset='utf-8'>
+    <script
+      src='slides.js'></script>
+  </head>
+  
+  <style>
+    body h1.upper {
+      margin-top: 100px;
+    }
+    body h3 {
+      font-size: 36px;
+    }
+    body span.smaller {
+      font-size: 24px;
+    }
+    img.icon {
+      float: left;
+      width: 96px;
+      height: 96px;
+      margin-top: -10px;
+      margin-right: 15px;
+    }
+    img.github-logo {
+      float: right;
+      width: 288px;
+      height: 96px;
+      margin-top: -70px;
+      margin-right: 90px;
+    }
+    pre.smaller {
+      font-size: 15px;
+      line-height: 20px;
+      letter-spacing: 0;
+    }
+    article.page-one .logo img {
+      float: left;
+      width: 128px;
+      height: 128px;
+    }
+    article.page-one .logo.vim {
+      position: absolute;
+      top: 80px;
+      left: 390px;
+    }
+    article.page-one .logo.git {
+      position: absolute;
+      top: 330px;
+      left: 390px;
+    }
+  </style>
+
+  <body style='display: none'>
+
+    <section class='slides layout-regular template-default'>
+
+      <article class="page-one">
+        <div class='logo vim'>
+          <img src='images/vim-logo.jpeg'>
+        </div>
+        <div class='logo git'>
+          <img src='images/git-logo.png'>
+        </div>
+        <h1>
+          Vim + Git = Fugitive<br/>
+        </h1>
+        <p>
+          Sheng-Zhe Lin<br>
+          Vim Taiwan<br>
+          Octorber 11, 2011
+        </p>
+      </article>
+
+      <article>
+        <h1>about.me/v1nc3ntlaw</h1>
+        <p>林聖哲, Sheng-Zhe Lin, Vincent</p>
+        <p>Rails developer and linux system administrator at Techbang.</p>
+      </article>
+
+      <article>
+      <h1>
+        <img class='icon' src='images/vim-logo.jpeg'>
+        vim
+      </h1>
+
+        <div class="source">
+          http://www.vim.org/
+        </div>
+      </article>
+
+      <article>
+      <h1>
+        <img class='icon' src='images/git-logo.png'>
+        git - <span style="font-size:52px;">Version Control System</span>
+      </h1>
+      <p>a collection of command-line utilities</p>
+
+        <div class="source">
+          http://git-scm.com/
+        </div>
+      </article>
+
+      <article>
+        <h1 class="upper">fugitive.vim</h1>
+        <p>a Git wrapper</p>
+        <p>Author: Tim Pope @tpope</p>
+        <p>https://github.com/tpope/vim-fugitive</p>
+      </article>
+
+      <article>
+        <h1>:Gstatus</h1>
+      </article>
+
+      <article>
+        <h1>:Glog</h1>
+      </article>
+
+      <article>
+        <h1>:Ggrep</h1>
+      </article>
+
+      <article>
+        <h1>:Gblame</h1>
+      </article>
+
+      <article>
+        <h1>:Gdiff</h1>
+      </article>
+
+      <article>
+        <h1>use :Gdiff resolving merge conflicts</h1>
+      </article>
+
+      <article>
+        <h1 class="upper">:Gbrowser</h1>
+        <p>
+          Github integration
+          <img class='github-logo' src='images/github-logo.png'>
+        </p>
+<pre class="smaller">
+# change git default browser
+$ git config --global web.browser chrome
+$ git config --global browser.chrome.path /opt/google/chrome/chrome
+# more details
+$ git web--browse --help
+</pre>
+        <div class="source">
+          https://github.com/
+        </div>
+      </article>
+
+      <article>
+        <h1 class="upper">Resources</h1>
+        <p>http://vimcasts.org/e/31 ~ 35</p>
+        <p>https://github.com/tpope/vim-fugitive</p>
+        <p>:help fugitive</p>
+      </article>
+
+      <article>
+        <h1>Q & A</h1>
+        <h2>Thanks!</h2>
+      </article>
+
+    </section>
+
+  </body>
+</html>
